@@ -32,6 +32,10 @@ p{
     color: darkblue;
 }
 
+.color-whiteSmoke{
+    color: whitesmoke;
+}
+
 .container{
     display: flex;
     margin-bottom: 130px;
@@ -87,10 +91,26 @@ p{
 }
 
 .sectionFive-button{
-    background-image: linear-gradient(darkblue);
+    background-image: linear-gradient(darkblue cyan);
     color: black;
     padding: 10px 40px;
     font-weight: 700;
     text-decoration: none;
     border-radius: 15px;
+}
+
+.box-two{
+    width: 50%;
+    margin: 10%;
+    border-radius: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+footer{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
 }
