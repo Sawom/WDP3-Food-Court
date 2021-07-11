@@ -69,5 +69,28 @@ p{
 }
 
 .box-model{
+    width: 30%;
+    margin: 4%;
+    border-radius: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-shadow: 7px 7px 7px 7px gray;
+}
 
+.pics{
+    border-radius: 10%;
+}
+
+.sectionFive{
+    background-image: url(images/shapes/Frame58.jpg);
+    background-repeat: no-repeat;
+}
+
+.sectionFive-button{
+    background-image: linear-gradient(darkblue);
+    color: black;
+    padding: 10px 40px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 15px;
 }
