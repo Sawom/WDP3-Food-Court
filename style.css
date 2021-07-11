@@ -2,6 +2,10 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 30px;
+}
+
 body{
     font-family: 'Karla', sans-serif;
     margin: 0px;
@@ -12,22 +16,30 @@ p{
     text-align: justify;
 }
 
+.pdng-right{
+    padding-right: 20%;
+}
+
 .padng-left{
-    padding-left: 40px;
+    padding-left: 20%;
 }
 
 .color-orange{
     color: darkorange;
 }
 
+.blue{
+    color: darkblue;
+}
+
 .container{
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 130px;
 }
 
 .half-width{
     width: 50%;
-    padding-left: 15px;
+    padding-left: 5%;
 }
 
 .half-width img{
@@ -40,10 +52,22 @@ p{
     padding: 10px 40px;
     color: whitesmoke;
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .sectionTwoBanner{
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.list-font{
+    font-size: 22px;
+}
+
+.box-model{
+
 }
